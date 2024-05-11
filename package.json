@@ -1,0 +1,25 @@
+{
+  "name": "next-blog-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8888",
+    "build": "next build",
+    "start": "next start -p 8888"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "mongodb": "^6.6.1",
+    "next": "^13.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "18.3.1",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "typescript": "5.4.5"
+  }
+}
