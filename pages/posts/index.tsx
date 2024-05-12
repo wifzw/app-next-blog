@@ -20,10 +20,10 @@ export default function AllPostsPage({ posts }: { posts: IPost[] }) {
   return (
     <>
       <Head>
-        <title>All My Posts</title>
+        <title>Todos Minhas postagens</title>
         <meta
           name="description"
-          content="A list of all programming-related tutorials and posts"
+          content="Uma lista de todos os tutoriais e postagens relacionadas à programação"
         />
       </Head>
       <AllPosts posts={posts} />

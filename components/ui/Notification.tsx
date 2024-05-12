@@ -35,7 +35,7 @@ function Notification(props: INotificationProps) {
   return (
     <div
       className={activeClasses}
-      title="Remove Notification"
+      title="Remove Notificação"
       onClick={notificationCtx.hideNotification}
     >
       <h2>{title}</h2>

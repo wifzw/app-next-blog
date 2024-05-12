@@ -13,10 +13,10 @@ export default function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href="/posts">Posts</Link>
+            <Link href="/posts">Postagens</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Contatos</Link>
           </li>
         </ul>
       </nav>

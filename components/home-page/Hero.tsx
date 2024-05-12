@@ -12,10 +12,10 @@ export default function Hero() {
           height={300}
         />
       </div>
-      <h1>Hi, I'm Kauan</h1>
+      <h1>Olá, Eu sou Kauan</h1>
       <p>
-        I blog about web development - especially frontend frameworks like Vue
-        or React
+        Blog sobre desenvolvimento web, especialmente sobre frameworks frontend
+        como Vue ou React.
       </p>
     </section>
   );

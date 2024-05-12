@@ -1,17 +1,17 @@
 ---
-title: Mastering JavaScript
-excerpt: JavaScript is the most important programming language for web development. You probably don't know it well enough!
+title: Dominando JavaScript
+excerpt: JavaScript é a linguagem de programação mais importante para desenvolvimento web. Você provavelmente não conhece isso bem o suficiente!
 image: mastering-js-thumb.png
 isFeatured: false
-date: '2021-10-30'
+date: "2021-10-30"
 ---
 
-JavaScript powers the web - it's **the** most important programming language you need to know as a web developer.
+JavaScript impulsiona a web - é **a** linguagem de programação mais importante que você precisa conhecer como desenvolvedor web.
 
-For example, you should understand code like this:
+Por exemplo, você deve entender um código como este:
 
 ```js
-const basics = 'Okay, that should not be too difficult actually';
+const basics = 'Ok, isso não deve ser muito difícil, na verdade';
 
 function printBasics() {
   console.log(basics):

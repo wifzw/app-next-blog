@@ -88,11 +88,11 @@ export default function ContactForm() {
 
   return (
     <section className={classes.contact}>
-      <h1>How can I help you?</h1>
+      <h1>Como posso ajudá-lo?</h1>
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor="email">Your Email</label>
+            <label htmlFor="email">Seu Email</label>
             <input
               type="email"
               id="email"
@@ -103,7 +103,7 @@ export default function ContactForm() {
           </div>
 
           <div className={classes.control}>
-            <label htmlFor="name">Your Name</label>
+            <label htmlFor="name">Seu Nome</label>
             <input
               type="text"
               id="name"
@@ -114,7 +114,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className={classes.control}>
-          <label htmlFor="message">Your Message</label>
+          <label htmlFor="message">Sua mensagem</label>
           <textarea
             id="message"
             rows={5}
@@ -129,7 +129,7 @@ export default function ContactForm() {
         </div>
 
         <div className={classes.actions}>
-          {isLoading ? <p>Loading...</p> : <button>Send Message</button>}
+          {isLoading ? <p>Loading...</p> : <button>Enviar Mensagem</button>}
         </div>
       </form>
     </section>
